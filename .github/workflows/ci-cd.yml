@@ -1,0 +1,30 @@
+name: My CV CI/CD
+
+on:
+  push:
+    branches:
+      - dev
+      - uat
+      - main
+
+jobs:
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Job
+        run: echo "Running test process"
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: Build Job
+        run: echo "Running build process"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy Job
+        run: echo "Running deploy process"
