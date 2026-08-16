@@ -1,4 +1,4 @@
-]My-CV-Tools
+My-CV-Tools
 
 Description
 
