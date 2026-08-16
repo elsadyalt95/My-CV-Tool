@@ -4,22 +4,11 @@ Description
 
 My-CV-Tools is a simple Bash and GitHub Actions exercise. It demonstrates basic Git workflow, feature branches, CI/CD, version tagging, and release management.
 
-Project Structure
-
-My-CV-Tools/
-├── cv.sh
-└── .github/
-    └── workflows/
-        └── ci-cd.yml
 
 Bash Script
 
 The cv.sh script prints basic CV information: name, address, experience, and education.
 
-Run it with:
-
-chmod +x cv.sh
-./cv.sh
 
 Branching Workflow
 
@@ -40,6 +29,7 @@ feature/tambah-pengalaman
 feature/tambah-pendidikan
 
 The features are developed and merged into dev sequentially.
+
 
 CI/CD
 
@@ -63,6 +53,7 @@ After the completed project is merged through dev and uat into main, the initial
 
 v1.0.0
 
+
 A GitHub Release is then created for team and business documentation.
 
 Feature Change Types
@@ -73,16 +64,6 @@ feature/tambah-pengalaman - major change
 
 feature/tambah-pendidikan - patch change
 
-Exercise Flow
 
-Feature Branch
-      ↓
-     dev
-      ↓
-     uat
-      ↓
-    main
-      ↓
-   v1.0.0
       ↓
 GitHub Release
