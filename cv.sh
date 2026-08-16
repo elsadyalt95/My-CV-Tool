@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Name: Isnan El Sady"
+echo "Name: Isnan"
+echo "Address: Bandung, Indonesia"
