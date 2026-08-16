@@ -64,6 +64,3 @@ feature/tambah-pengalaman - major change
 
 feature/tambah-pendidikan - patch change
 
-
-      ↓
-GitHub Release
